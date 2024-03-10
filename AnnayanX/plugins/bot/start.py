@@ -21,7 +21,6 @@ from AnnayanX.utils.database import (
 
 from AnnayanX.utils.decorators.language import LanguageStart
 from AnnayanX.utils.formatters import get_readable_time
-from AnnayanX.utils.inline import first_page, private_panel, start_panel
 from config import BANNED_USERS
 from strings import get_string
 from AnnayanX.core.userbot import Userbot
