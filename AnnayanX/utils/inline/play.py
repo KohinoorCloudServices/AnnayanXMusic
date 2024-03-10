@@ -156,7 +156,7 @@ def slider_markup(_, videoid, user_id, query, query_type, channel, fplay):
             ),
             InlineKeyboardButton(
                 text=_[unban_assistant],
-                callback_data=f"unban_assistant",
+                callback_data=f"unban_assistant {query}|{user_id}",
             ),
             InlineKeyboardButton(
                 text="▷",
