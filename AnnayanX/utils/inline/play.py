@@ -4,6 +4,7 @@ from pyrogram.types import InlineKeyboardButton
 from AnnayanX import app
 import config
 from AnnayanX.utils.formatters import time_to_seconds
+from pyrogram.types import CallbackQuery
 
 
 def track_markup(_, videoid, user_id, channel, fplay):
