@@ -630,7 +630,8 @@ async def is_banned_user(user_id: int) -> bool:
     if not user:
         return False
     return True
-
+async def delete_served_chat(chat_id: int):
+    await chatsdb.delete_one({"chat_id": chat_id})
 
 async def add_banned_user(user_id: int):
     is_gbanned = await is_banned_user(user_id)
